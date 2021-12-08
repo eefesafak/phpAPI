@@ -1,0 +1,15 @@
+<form action="http://localhost:8080/create_artist.php" method="POST">
+    ID: &nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="id" value="5"/><br>
+    Name:<input type="text" name="name" value="yakup"/><br>
+    Female<input type="radio" id="1" name="gender" value="F"/><br>
+    Male<input type="radio" id="2" name="gender" value="M"/><br>
+    Status<input type="text" name="status"/><br>
+    <!--Field<input type="text" name="field" value="Music"/>-->
+    Field:<select name="field">
+        <option value="field">Music</option> 
+        <option value="field">Painting</option>
+        <option value="field">Calligraphy</option>
+      </select><br>
+    <input type="submit" value="submit"/>
+
+</form>
